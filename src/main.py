@@ -45,7 +45,6 @@ class Cadastro_notas:
             st.success("Nota cadastrada")
         except Exception as e:
             st.error(f"Ocorreu um erro, por favor, tente novamente. {e}")
-
     
     def obter_dados(self):
         conn = sqlite3.connect(self.BANCO_DADOS)

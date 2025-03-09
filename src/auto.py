@@ -38,7 +38,7 @@ class cadastro_auto:
         except Exception as e:
             print("Erro")
 
-    def pegar_valores(self):
+    def pegar_valores(self): 
         # Iterar sobre as linhas do DataFrame
         for index, row in self.df.iterrows():
             self.contrato = row['Contrato']
