@@ -19,30 +19,21 @@ Como Rodar o Projeto
 Requisitos
 Antes de rodar o projeto, certifique-se de ter o Python instalado em sua máquina. Além disso, instale as dependências necessárias:
 
-bash
-Copiar
-Editar
 pip install -r requirements.txt
 Rodando o Projeto
 Certifique-se de que o banco de dados cadastro.db está presente na raiz do projeto.
 Execute o seguinte comando para iniciar o aplicativo Streamlit:
-bash
-Copiar
-Editar
+
 streamlit run src/main.py
 Para rodar a automação de preenchimento de notas, execute:
-bash
-Copiar
-Editar
+
 python src/auto.py
 Exemplo de Fluxo
 Cadastro de Notas: Abra o sistema Streamlit para preencher as informações de cada nota.
 Visualização de Gráficos: Após o cadastro, você poderá ver o gráfico de barras que exibe a quantidade de notas por contrato.
 Automação de Preenchimento: Utilize o Selenium para preencher automaticamente as notas pendentes em um sistema web configurado localmente.
 Estrutura do Projeto
-bash
-Copiar
-Editar
+
 meu-sistema/
 │
 ├── src/
